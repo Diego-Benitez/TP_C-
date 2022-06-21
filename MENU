@@ -34,13 +34,13 @@ void menu_principal(){
         switch (opcion){
 
             case 1:
-
+                JUGAR();
                 break;
             case 2:
-
+                PERFILES()
                 break;
             case 3:
-
+                REGLAS()
                 break;
             case 4:
                 cout << " ADIOS!" << endl;
