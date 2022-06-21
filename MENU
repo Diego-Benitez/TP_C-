@@ -1,0 +1,54 @@
+#include <iostream>
+#include<cstdlib>
+using namespace std;
+
+void menu_principal();
+int main()
+{
+    menu_principal();
+
+    return 0;
+}
+void menu_principal(){
+    bool repite = true;
+    int opcion;
+     do{
+        
+        
+        system("cls");
+        //titulo del menú
+        cout<<"         GENERALA       "<<endl;
+
+        //opciones del menú
+
+        cout<<"     1.JUGAR     "        <<endl;
+        cout<<"     2.PERFILES  "        <<endl;
+        cout<<"     3.REGLAS    "        <<endl;
+        cout<<"     4.SALIR     "        <<endl<<endl;
+        cout<<"     OPCION:     "        <<endl;
+        cin>> opcion;
+        system("cls");
+
+        //lee opciones
+        
+        switch (opcion){
+
+            case 1:
+
+                break;
+            case 2:
+
+                break;
+            case 3:
+
+                break;
+            case 4:
+                cout << " ADIOS!" << endl;
+                repite = false;
+                system("pause>nul");
+                break;
+
+        }
+
+    }while(repite);
+}
